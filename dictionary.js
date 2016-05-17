@@ -8,7 +8,7 @@ var dictionary = {
   "look!": "that she blows!",
   "doomed": "shark bait",
   "old guy": "salty dog",
-  "fool": "scalliwag",
+  "fool": "scallywag",
   "treasure": "booty",
   "whoa": "blimey",
   "flag": "jolly roger",
@@ -23,6 +23,11 @@ var dictionary = {
   "jacket": "monkey jacket",
   "woman": "wench",
   "man": "landlubber",
-
+  "money": "booty",
+  "paycheck": "booty",
+  "crash": "scuttle",
+  "bathroom": "head",
+  "toilet": "head",
+  "died": "resides in Davey Jones' locker";
 
 }
