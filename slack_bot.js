@@ -80,17 +80,18 @@ var bot = controller.spawn({
     token: process.env.token
 }).startRTM();
 
-
+// pirate - input string returns translated pirate speak
 controller.hears(['pirate'],
     'direct_message,direct_mention,mention', function(bot, message) {
-
+    // remove the pirate substring
 	var urlRequest = 'http://isithackday.com/arrpi.php?text=' + escape(message.text.substring(6));
 	var request = require('request');
 
 	request(urlRequest, function (error, response, body) {
-  if (!error && response.statusCode == 200) {
-  	bot.reply(message, body);
-  }});
+        if (!error && response.statusCode == 200) {
+            bot.reply(message, body);
+        }
+    });
 });
 
 
