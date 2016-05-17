@@ -19,6 +19,10 @@ var dictionary = {
   "get ready": "batten down the hatches",
   "ahoy": "hello",
   "wow": "blimey",
-  
+  "stuff": "duffle",
+  "jacket": "monkey jacket",
+  "woman": "wench",
+  "man": "landlubber",
+
 
 }
