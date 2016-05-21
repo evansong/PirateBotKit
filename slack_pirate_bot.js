@@ -31,21 +31,9 @@ This bot demonstrates many of the core features of Botkit:
 
   Find your bot inside Slack to send it a direct message.
 
-  Say: "Hello"
+  Say: "pirate Hello"
 
-  The bot will reply "Hello!"
-
-  Say: "who are you?"
-
-  The bot will tell you its name, where it running, and for how long.
-
-  Say: "Call me <nickname>"
-
-  Tell the bot your nickname. Now you are friends.
-
-  Say: "who am I?"
-
-  The bot will tell you your nickname, if it knows one for you.
+  The bot will reply "Ahoy"
 
   Say: "shutdown"
 
